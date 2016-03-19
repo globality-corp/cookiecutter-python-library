@@ -2,14 +2,14 @@
 from setuptools import find_packages, setup
 
 project = "{{cookiecutter.project_name}}"
-version = "{{cookiecutter.version_version}}"
+version = "{{cookiecutter.project_version}}"
 
 setup(
     name=project,
     version=version,
     description="{{cookiecutter.short_description}}",
     author="{{cookiecutter.author}}",
-    author_email="{{cookiecutter.autho_email}}",
+    author_email="{{cookiecutter.author_email}}",
     url="https://github.com/{{cookiecutter.organization_name}}/{{cookiecutter.repo_name}}",
     packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
     include_package_data=True,
