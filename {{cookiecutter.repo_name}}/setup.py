@@ -2,7 +2,7 @@
 from setuptools import find_packages, setup
 
 project = "{{cookiecutter.project_name}}"
-version = "{{cookiecutter.version_version}}"
+version = "{{cookiecutter.project_version}}"
 
 setup(
     name=project,
