@@ -23,9 +23,11 @@ setup(
     ],
     entry_points={
     },
-    tests_require=[
-        "coverage>=3.7.1",
-        "mock>=1.0.1",
-        "PyHamcrest>=1.8.5",
-    ],
+    extras_require = {
+        "test": [
+            "coverage>=3.7.1",
+            "mock>=1.0.1",
+            "PyHamcrest>=1.8.5",
+        ],
+    },
 )
