@@ -1,0 +1,10 @@
+{
+  "type": "python-library",
+  "version": "{{ cookiecutter.project_version }}",
+  "params": {
+    "name": "{{ cookiecutter.project_name }}",
+    "pypi": {
+      "repository": "pypi"
+    }
+  }
+}
