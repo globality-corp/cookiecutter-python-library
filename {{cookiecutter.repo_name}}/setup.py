@@ -18,9 +18,6 @@ setup(
     zip_safe=False,
     install_requires=[
     ],
-    setup_requires=[
-        "nose>=1.3.6",
-    ],
     dependency_links=[
     ],
     entry_points={
@@ -29,7 +26,6 @@ setup(
         "test": [
             "coverage>=3.7.1",
             "mock>=1.0.1",
-            "PyHamcrest>=1.8.5",
         ],
     },
 )
